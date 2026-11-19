@@ -1,0 +1,16 @@
+{
+  "name": "valdra",
+  "displayName": "Valdra",
+  "version": "0.1.0",
+  "description": "Canadian privacy and AI governance help from Valdra: a privacy readiness check, a privacy policy draft for a Canadian business, and an EU AI Act risk screening, in English or French.",
+  "author": {
+    "name": "Canuckt Synergy Solutions Inc.",
+    "url": "https://valdra.ai"
+  },
+  "homepage": "https://valdra.ai/claude-connector",
+  "documentationUrl": "https://valdra.ai/claude-connector",
+  "privacyPolicyUrl": "https://valdra.ai/privacy",
+  "termsOfServiceUrl": "https://valdra.ai/terms",
+  "license": "MIT",
+  "keywords": ["privacy", "pipeda", "quebec", "law 25", "casl", "ai governance", "eu ai act", "privacy policy", "canada", "bilingual"]
+}

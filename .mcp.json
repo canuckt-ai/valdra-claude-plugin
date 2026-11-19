@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "valdra": {
+      "type": "http",
+      "url": "https://mcp.valdra.ai/mcp"
+    }
+  }
+}
