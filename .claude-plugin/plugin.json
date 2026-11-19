@@ -12,5 +12,18 @@
   "privacyPolicyUrl": "https://valdra.ai/privacy",
   "termsOfServiceUrl": "https://valdra.ai/terms",
   "license": "MIT",
-  "keywords": ["privacy", "pipeda", "quebec", "law 25", "casl", "ai governance", "eu ai act", "privacy policy", "canada", "bilingual"]
+  "keywords": [
+    "privacy",
+    "pipeda",
+    "quebec",
+    "law 25",
+    "casl",
+    "ai governance",
+    "eu ai act",
+    "privacy policy",
+    "canada",
+    "bilingual"
+  ],
+  "supportUrl": "https://valdra.ai/contact",
+  "repository": "https://github.com/canuckt-ai/valdra-claude-plugin"
 }
