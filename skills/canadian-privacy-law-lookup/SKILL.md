@@ -16,7 +16,7 @@ This skill uses the `canadian_privacy_law_lookup` tool from the Valdra connector
 
 1. **Find the place.** If the question depends on where the organization operates and the user has not said, ask for the province or territory, or whether federal law is meant. Pass it as `jurisdiction` (`CA` for federal, or `CA-` and the two letter code, such as `CA-QC`). If the user wants all of Canada, leave it out.
 2. **Pick the kind, when it is clear.** For a deadline question pass `kind: "deadline"`; for fines `kind: "penalty"`; for who the law covers `kind: "scope"`. Otherwise leave it out.
-3. **Look it up.** Call `canadian_privacy_law_lookup` with a short `query` in the user's own words, such as "breach notification" or "consent for marketing email".
+3. **Look it up.** Call `canadian_privacy_law_lookup` with a short `query` of the key words of the question, in the legal terms the law would use, such as "breach notification" or "consent for marketing email", not the whole question. Use the user's language: French words when `lang` is `fr`.
 4. **No match.** If the result has no statements, try once more with the law's name or a plainer word, as the result's `no_match` text suggests. If there is still nothing, say the registry has no statement on it.
 
 ## Explaining the result
