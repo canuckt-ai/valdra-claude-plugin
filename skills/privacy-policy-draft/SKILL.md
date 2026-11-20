@@ -1,11 +1,11 @@
 ---
 name: privacy-policy-draft
-description: Drafts a privacy policy for a business based in a Canadian province or territory by collecting a few facts in conversation and filling Valdra's reviewed template, in English or French. Use when someone asks for a privacy policy, a privacy notice for their website, or a Law 25 or PIPEDA privacy policy for a Canadian business.
+description: Drafts a privacy policy for a business based in a Canadian province or territory by collecting a few facts in conversation and filling Valdra's fixed template, in English or French. Use when someone asks for a privacy policy, a privacy notice for their website, or a Law 25 or PIPEDA privacy policy for a Canadian business.
 ---
 
 # Privacy policy draft for a Canadian business
 
-This skill uses the `privacy_policy_draft` tool from the Valdra connector in this plugin. The tool fills a fixed, reviewed template from the facts given. It writes no free text of its own and stores nothing about the business.
+This skill uses the `privacy_policy_draft` tool from the Valdra connector in this plugin. The tool fills a fixed template from the facts given. It writes no free text of its own and stores nothing about the business.
 
 ## Language
 
