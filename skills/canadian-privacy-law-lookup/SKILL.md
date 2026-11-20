@@ -1,11 +1,11 @@
 ---
 name: canadian-privacy-law-lookup
-description: Looks up what Canadian privacy law says on a question, such as breach reporting, consent, access requests, penalties or who a law applies to, and answers with the matching statements of federal, provincial and territorial law, each with its legal citation, the official source link and the date it was last checked. Use when someone asks what PIPEDA, Quebec Law 25, CASL, PHIPA or another Canadian privacy act requires. Works in English or French.
+description: Finds the closest matching statements of federal, provincial and territorial Canadian privacy law for a question, such as breach reporting, consent, access requests, penalties or who a law applies to, each with its legal citation, the official source link and the date it was last checked. Use when someone asks what PIPEDA, Quebec Law 25, CASL, PHIPA or another Canadian privacy act requires. Works in English or French.
 ---
 
 # Canadian privacy law lookup
 
-This skill uses the `canadian_privacy_law_lookup` tool from the Valdra connector in this plugin. The tool searches Valdra's registry of Canadian privacy law statements and returns the matching statements as stored, each with its citation, the official source URL, the date the source was current to, and the date the statement was last checked against it.
+This skill uses the `canadian_privacy_law_lookup` tool from the Valdra connector in this plugin. The tool searches Valdra's registry of Canadian privacy law statements and returns the closest matching statements as stored, each with its citation, the official source URL, the date the source was current to, and the date the statement was last checked against it.
 
 ## Language
 
@@ -23,7 +23,7 @@ This skill uses the `canadian_privacy_law_lookup` tool from the Valdra connector
 
 Use only what the tool returns:
 
-- Answer the question in plain words from the `statement` of the most relevant results.
+- Answer the question in plain words from the `statement` of the most relevant results. The results are the closest matches in the registry, not a guaranteed answer: if none of them answers the question, say so.
 - After each point give its `citation` exactly as returned and its `source_url` as a link.
 - Say the date in `verified_on` when you give a deadline or a penalty.
 - If `more_results` is true and the question is broad, offer to narrow it by province or kind.

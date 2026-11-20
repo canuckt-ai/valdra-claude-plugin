@@ -5,7 +5,7 @@ Valdra is a Canadian privacy and AI governance product from Canuckt Synergy Solu
 ## What it adds
 
 - **Canadian privacy readiness check** (`canadian-privacy-readiness`): asks the yes or no questions of Valdra's free readiness check (PIPEDA, Quebec Law 25, CASL and AI governance) in plain words, scores the answers out of 100, and explains the top gaps and the step that closes each, with a link to Valdra's free full assessment.
-- **Canadian privacy law lookup** (`canadian-privacy-law-lookup`): looks up what federal, provincial and territorial privacy law says on a question, such as breach reporting in Quebec, and answers with the matching statements, each with its legal citation, the official source link and the date it was last checked.
+- **Canadian privacy law lookup** (`canadian-privacy-law-lookup`): finds the closest matching statements of federal, provincial and territorial privacy law for a question, such as breach reporting in Quebec, each with its legal citation, the official source link and the date it was last checked.
 - **Privacy policy draft** (`privacy-policy-draft`): collects a few facts about a business in a Canadian province or territory and fills Valdra's fixed privacy policy template, in English or French, then lists what to check before publishing.
 - **EU AI Act risk check** (`ai-act-risk-check`): asks the yes or no facts that matter for an AI use case and explains the risk tier, the obligations with their articles and dates, the role of provider or deployer, and other AI laws that may also apply.
 
